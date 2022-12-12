@@ -1,0 +1,320 @@
+@keyframes changepic{
+    0%{   display:block;
+        height:62%;
+        overflow:auto;
+        background-image: url('pics/iitr2.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position: center center;  }
+    20%{   display:block;
+        height:62%;
+        overflow:auto;
+        background-image: url('pics/iitr3.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position: center center;    }
+    40%{  display:block;
+        height:62%;
+        overflow:auto;
+        background-image: url('pics/iitr4.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position: center center;  }
+    60%{display:block;
+        height:62%;
+        overflow:auto;
+        background-image: url('pics/iitr5.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position: center center;}
+    80%{  display:block;
+        height:62%;
+        overflow:auto;
+        background-image: url('pics/iitr6.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position: center center;   }    
+    100%{  display:block;
+        height:62%;
+        overflow:auto;
+        background-image: url('pics/iitr7.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position: center center;   }
+
+}
+
+/* BODY SECTION STARTS*/
+body{
+    background-color: whitesmoke;
+
+
+}
+
+/* BODY SECTION END*/
+
+
+/* MENU SECTION STARTS */
+   #header{
+    background-color: #94abbd;
+   }
+
+
+    #menu{
+ font-size:50px ;
+ padding-left:  30px;
+ padding-top: 20px;
+
+    }
+    .menu{
+        padding-left:30px;
+     
+    }
+    #menulast{
+        padding-bottom: 20px;
+    }                              
+        /* MENU SECTION END*/
+
+      /* INTRODUCTION PART STARTS*/
+    #intro{background-color: #F2F1EF;
+          height:100vh;
+         overflow:auto;
+        
+    }
+    #introduction{
+        padding-left: 6px;
+        padding-right: 6px;
+        text-align: justify;
+    }
+    #pic{
+    display:block;
+    height:62%;
+    overflow:auto;
+    background-image: url('pics/iitr2.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+    animation-name: changepic;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 50s;
+
+    }
+
+    #text{
+        font-size: bold;
+        color:black;
+        text-indent: 50px;
+        font-size: 30px;
+
+      
+    
+    }
+    
+   
+    
+    #about{
+    
+        margin-top: 10px;
+        background-color: #cccccc;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    #p1{
+     font-size:22px;
+     text-indent: 50px;
+     text-align: justify;
+     padding-left: 6px;
+     padding-right:6px;
+    }
+
+
+     #p1::first-letter{
+         color:red;
+         font-size:50px;
+         
+}
+     #p2::first-letter{
+         color:tomato;
+         font-size: 45px;
+     }
+     #p2{
+         text-indent: 50px;
+     }   
+        /* INTRODUCTION SECTION END*/
+     
+      /* EXTERNAL LINK SECTION STARTS */
+     #officiallink{
+    height:150px;
+    background-color: #d9d9d9;
+    
+     }
+      /*EXTERNAL SECTION END*/
+
+
+      /*IIT'S SECTION STARTS*/
+     
+     #iits{
+        
+         overflow: auto;
+         justify-content: space-between;
+         margin: 5px;
+         background-image: url('pics/iitr.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+
+     }
+
+     #iitintro{
+        background-color: #d0e0e3;
+        font-size: 20px;
+        text-indent: 30px;
+        text-align:center;
+    }
+    #iitintro::first-letter{
+        font-size: 50px;
+        color: red;
+    }
+      
+
+     .a1{
+
+     color:white;     }
+     #iitintrop{
+        padding-left: 6px;
+        padding-right: 6px;
+       
+     }
+       
+     /*IIT'S SECTION END*/
+
+     /* NIT'S SECTION STARTS*/
+
+     #nits{ 
+        overflow: auto;
+        justify-content: space-between;
+        margin: 5px;
+        background-image: url('pics/nitt.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    
+
+
+     }
+
+     
+
+     #nitintro{
+        background-color: #d0e0e3;
+        font-size: 20px;
+        text-indent: 30px;
+        text-align:center;
+    }
+    #nitintro::first-letter{
+        font-size: 50px;
+        color: red;
+    }
+
+    #nitintrop{
+        padding-left: 6px;
+        padding-right: 6px;
+       
+    }
+
+
+/* MARQUEE STARTS */
+
+
+    marquee{
+        font-size: 50px;
+
+    }
+
+   
+
+/* MARQUEE END */
+
+
+
+    /* NIT'S SECTION ENS*/
+
+
+    /* IIIT'S SECTION STARTS*/
+    #iiitintro{
+        background-color: #d0e0e3;
+        font-size: 20px;
+        text-indent: 30px;
+        text-align:center;
+    }
+    #iiitintro::first-letter{
+        font-size: 50px;
+        color: red;
+    }
+    #iiits{ 
+        overflow: auto;
+        justify-content: space-between;
+        margin: 5px;
+        background-image: url('pics/iiita2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 10px;
+    
+    
+
+
+     }
+
+     #iiitintrop{
+        padding-left: 6px;
+        padding-right: 6px;
+       
+     }
+
+
+     /* IIIT'S SECTION END*/
+
+
+     /*FOOTER OR ORTHER EXAM SECTION STARTS*/
+     #footer{
+        background-color: #bcbcbd;
+        }
+
+     #otherxam{  
+         column-count: 3;
+         column-gap: 6px;
+         column-width: 250px;
+         padding-left: 6px;
+         padding-right: 6px;
+         text-align: justify;
+
+     }
+     h1{
+         column-span: all;
+         padding-left: 6px;
+         padding-right: 6px;
+    
+
+     }
+     
+
+     #otherxamp{font-weight: 500;
+        padding-left: 6px;
+        padding-right: 6px;
+        text-align: justify;
+
+     }
+     h3{
+        padding-left: 6px;
+        padding-right: 6px;
+        text-align: justify;
+     }
+
+    /*FOOTER OR OTHER EXAM SECTION END*/
+
+
+
+
+     
